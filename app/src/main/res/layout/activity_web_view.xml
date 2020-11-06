@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:tag="layout/activity_webview_0">
+
+    <RelativeLayout
+        android:id="@id/RLTopLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroung_gradient"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/RLTop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@id/imBack"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_centerVertical="true"
+                android:layout_margin="0.0dip"
+                android:padding="5.0dip"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:id="@id/TVTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="16.0sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/RLTopLayout">
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/RLTop" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>

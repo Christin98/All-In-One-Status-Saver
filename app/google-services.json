@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "182905246802",
+    "firebase_url": "https://all-in-one-status-saver-34dcb.firebaseio.com",
+    "project_id": "all-in-one-status-saver-34dcb",
+    "storage_bucket": "all-in-one-status-saver-34dcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182905246802:android:1cfd8ffada1074e6ec7b8b",
+        "android_client_info": {
+          "package_name": "com.kcdeveloperss.status.downloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182905246802-8eo6fqhv6ph4m65s02gbouqsip50srvs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kcdeveloperss.status.downloader",
+            "certificate_hash": "25f40b4154b75fdd19c350b14620753e5d6449cc"
+          }
+        },
+        {
+          "client_id": "182905246802-j2dha0aosslqf7677jjk62c7dj5vqdi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACEdLGhKta7FhiI62XMGYVYJrUBFW-Gh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182905246802-j2dha0aosslqf7677jjk62c7dj5vqdi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

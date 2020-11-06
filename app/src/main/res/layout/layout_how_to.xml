@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LLHowToLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="10.0dip"
+    android:background="@drawable/et_back"
+    android:elevation="3.0dip"
+    android:orientation="vertical"
+    android:tag="layout/layout_how_to_0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="15.0dip"
+        android:layout_marginTop="15.0dip"
+        android:text="How to Download"
+        android:textColor="@color/black"
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15.0dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.0dip"
+        android:background="@drawable/et_back"
+        android:elevation="3.0dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvHowTo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="2.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginEnd="2.0dip"
+            android:text="1. Open Facebook"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20.0sp" />
+
+        <ImageView
+            android:id="@+id/im_howto1"
+            android:layout_width="250.0dip"
+            android:layout_height="250.0dip"
+            android:layout_gravity="center"
+            android:layout_margin="10.0dip" />
+
+        <TextView
+            android:id="@+id/tvHowTo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="2.0dip"
+            android:layout_marginEnd="2.0dip"
+            android:text="@string/second_how_too"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20.0sp" />
+
+        <ImageView
+            android:id="@+id/im_howto2"
+            android:layout_width="250.0dip"
+            android:layout_height="250.0dip"
+            android:layout_gravity="center"
+            android:layout_margin="10.0dip" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:text="or Download using copied link"
+        android:textColor="@color/black"
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10.0dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.0dip"
+        android:background="@drawable/et_back"
+        android:elevation="3.0dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvHowTo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="2.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginEnd="2.0dip"
+            android:text="1. Open Facebook"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20.0sp" />
+
+        <ImageView
+            android:id="@+id/im_howto3"
+            android:layout_width="250.0dip"
+            android:layout_height="250.0dip"
+            android:layout_gravity="center"
+            android:layout_margin="10.0dip" />
+
+        <TextView
+            android:id="@+id/tvHowTo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="2.0dip"
+            android:layout_marginEnd="2.0dip"
+            android:text="@string/fourth_how_too"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20.0sp" />
+
+        <ImageView
+            android:id="@+id/im_howto4"
+            android:layout_width="250.0dip"
+            android:layout_height="250.0dip"
+            android:layout_gravity="center"
+            android:layout_margin="10.0dip" />
+    </LinearLayout>
+</LinearLayout>
